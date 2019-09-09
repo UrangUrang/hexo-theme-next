@@ -384,16 +384,6 @@ tagcloud:
 # API Documentation: https://developers.google.com/google-apps/calendar/v3/reference/events/list
 # To get api_key: https://console.developers.google.com
 # Create & manage a public Google calendar: https://support.google.com/calendar/answer/37083
-calendar:
-  calendar_id: <required> # Your Google account E-Mail
-  api_key: <required>
-  orderBy: startTime
-  offsetMax: 24 # Time Range
-  offsetMin: 4 # Time Range
-  showDeleted: false
-  singleEvents: true
-  maxResults: 250
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -442,26 +432,11 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
   height: 2px
-
-# Bookmark Support
-bookmark:
-  enable: false
-  # Customize the color of the bookmark.
-  color: "#222"
-  # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
-  # If manual, only save it by clicking the bookmark-icon.
-  save: auto
-
-# `Follow me on GitHub` banner in the top-right corner.
-github_banner:
-  enable: false
-  permalink: https://github.com/yourname
-  title: Follow me on GitHub
 
 
 # ---------------------------------------------------------------
@@ -600,13 +575,6 @@ bookmark:
   # If auto, save the reading position when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
   save: auto
-
-# Reading progress bar
-# Dependencies: https://github.com/theme-next/theme-next-reading-progress
-reading_progress:
-  enable: false
-  color: "#37c6c0"
-  height: 2px
 
 # Google Calendar
 # Share your recent schedule to others via calendar page.
@@ -854,10 +822,6 @@ baidu_analytics: # <app_id>
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
 growingio_analytics: # <project_id>
 
-# Google Analytics
-google_analytics:
-  tracking_id: # <app_id>
-  localhost_ignored: true
 
 # CNZZ count
 cnzz_siteid:
